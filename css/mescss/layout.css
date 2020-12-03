@@ -15,3 +15,47 @@ header>img{
     width: 329px;
     height: auto;
 }
+
+.article-oeuvre>.bientot-de-retour{
+    width: 329px;
+    height: auto;
+}
+
+.article-oeuvre>.retour-sur-image{
+    width: 329px;
+    height: auto;
+}
+
+.article-pollution>.carte-pollution-nuérique{
+    width: 329px;
+    height: auto;
+}
+
+.article-pollution>.réseaux-pollution-numérique{
+    width: 329px;
+    height: auto;
+}
+
+.article-pollution>.serveur{
+    width: 329px;
+    height: auto;
+}
+
+.article-solutions>.ecosia{
+    width: 329px;
+    height: auto;
+}
+
+.article-solutions>.sites{
+    width: 329px;
+    height: auto;
+}
+
+.article-solutions>.disque-dur{
+    width: 329px;
+    height: auto;
+}
+
+.a-propos h1{
+    text-align: center;
+}
