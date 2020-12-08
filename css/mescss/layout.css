@@ -95,3 +95,13 @@ header>img{
 .accueil h3{
     animation: fadein 6s;
 }
+
+footer > img{
+    display: block;
+    width: 25px;
+    height: auto;
+}
+
+.mention{
+    width: 109px;
+}

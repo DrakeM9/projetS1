@@ -73,3 +73,17 @@ p{
     font-size: 16px;
     line-height: 23px;
 }
+
+footer{
+    background-color: #8F9AFA;
+}
+
+.prénom-nom{
+    font-family: "Inter Light";
+    font-size: 17px;
+}
+
+.mention{
+    font-family: "Inter ExtraLight";
+    font-size: 16px;
+}
