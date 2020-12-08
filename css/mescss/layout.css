@@ -59,3 +59,39 @@ header>img{
 .a-propos h1{
     text-align: center;
 }
+
+.accueil h1, .accueil h2, .accueil h3{
+    text-align: center;
+    padding: 15px;
+}
+
+.accueil h1{
+    padding-top: 50px;
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.accueil h2{
+    padding-top: 50px;
+    animation: fadein 9s;
+}
+
+.accueil img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    animation: fadein 6s;
+}
+
+.accueil h3{
+    animation: fadein 6s;
+}
