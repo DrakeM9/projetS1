@@ -87,13 +87,13 @@
 }
 
 .menu-open .menu li:nth-child(n+1) { transition-delay: .3s; }
-.menu-open .menu li:nth-child(n+2) { transition-delay: .35s; }
-.menu-open .menu li:nth-child(n+3) { transition-delay: .4s; }
-.menu-open .menu li:nth-child(n+4) { transition-delay: .45s; }
-.menu-open .menu li:nth-child(n+5) { transition-delay: .3s; }
-.menu-open .menu li:nth-child(n+6) { transition-delay: .35s; }
+.menu-open .menu li:nth-child(n+2) { transition-delay: .4s; }
+.menu-open .menu li:nth-child(n+3) { transition-delay: .5s; }
+.menu-open .menu li:nth-child(n+4) { transition-delay: .6s; }
+.menu-open .menu li:nth-child(n+5) { transition-delay: .7s; }
+.menu-open .menu li:nth-child(n+6) { transition-delay: .3s; }
 .menu-open .menu li:nth-child(n+7) { transition-delay: .4s; }
-.menu-open .menu li:nth-child(n+8) { transition-delay: .45s; }
+.menu-open .menu li:nth-child(n+8) { transition-delay: .5s; }
 
 .menu>ul>li:nth-child(1) a, .menu>ul>li:nth-child(6) a{
     font-weight: bold;

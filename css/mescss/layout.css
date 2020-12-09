@@ -105,3 +105,8 @@ footer > img{
 .mention{
     width: 109px;
 }
+
+footer{
+    width: 375px;
+    margin: 0 -20px;
+}
