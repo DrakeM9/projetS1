@@ -110,3 +110,7 @@ footer{
     width: 375px;
     margin: 0 -20px;
 }
+
+.réseaux>li{
+    display: inline-block;
+}

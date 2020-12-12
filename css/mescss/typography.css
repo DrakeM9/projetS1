@@ -87,3 +87,27 @@ footer{
     font-family: "Inter ExtraLight";
     font-size: 16px;
 }
+
+.réseaux{
+    list-style-type: none;
+}
+
+.réseaux a{
+    display: block;
+    background: no-repeat;
+    height: 25px;
+    width: 25px;
+    text-indent: -9999px;
+}
+
+.réseaux a[href^="https://www.instagram.com/clem_inthemood/"]{
+    background-image: url("images/instagram-brands.svg");
+}
+
+.réseaux a[href^="https://twitter.com/clem__tor"]{
+    background-image: url("images/twitter-brands (1).svg");
+}
+
+.réseaux a[href^="http://mmimontbeliard.com/"]{
+    background-image: url("images/logo-mmi.png");
+}

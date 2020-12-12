@@ -98,4 +98,16 @@
 .menu>ul>li:nth-child(1) a, .menu>ul>li:nth-child(6) a{
     font-weight: bold;
     font-size: 40px;
+    border-bottom: 3px solid black;
+}
+
+.menu>ul>li:nth-child(2), .menu>ul>li:nth-child(3), .menu>ul>li:nth-child(4), .menu>ul>li:nth-child(5), .menu>ul>li:nth-child(7), .menu>ul>li:nth-child(8){
+    text-indent: 35px;
+}
+
+.menu img{
+    width: 43.77px;
+    height: auto;
+    display: block;
+    position: center;
 }
