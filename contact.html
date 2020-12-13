@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/layout.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <img src="img/logo.png">
+            <ul>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="article-oeuvre.html">Black Mirror</a></li>
+                <li><a href="article-pollution.html">Pollution numérique</a></li>
+                <li><a href="article-solutions.html">Solutions</a></li>
+                <li><a href="article-scientifique.html">Article scientifique</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Autres projets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact">
+        <h1>Contact</h1>
+        <form>
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="textes-footer">
+            <p class="prénom-nom">Clément Torchiat C2</p>
+            <p class="mention">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
+        </div>
+        <ul class="réseaux">
+            <li><a href="https://www.instagram.com/clem_inthemood/"><img src="img/instagram-brands.svg" class="instagram"></a></li>
+            <li><a href="https://twitter.com/clem__tor"><img src="img/twitter-brands%20(1).svg" class="twitter"></a></li>
+            <li><a href="http://mmimontbeliard.com/"><img src="img/logo%20mmi.png" class="mmi"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -40,6 +40,12 @@ header{
     color: black;
 }
 
+.contact h1{
+    font-family: "Inter";
+    font-weight: bold;
+    color: #4D3227;
+}
+
 .article-oeuvre h2,.article-pollution h2,.article-solutions h2,.article-scientifique h2{
     font-family: "Inter SemiBold";
     font-size: 18px;
