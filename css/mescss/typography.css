@@ -40,7 +40,7 @@ header{
     color: black;
 }
 
-.contact h1{
+.contact h1, .autres-projets h1{
     font-family: "Inter";
     font-weight: bold;
     color: #4D3227;
@@ -72,6 +72,10 @@ header{
     font-size: 20px;
     color: black;
     line-height: 25px;
+}
+
+.autres-projets p{
+    font-family: Inter;
 }
 
 p{
