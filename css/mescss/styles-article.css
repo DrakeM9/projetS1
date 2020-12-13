@@ -1,11 +1,8 @@
-*
-{
+main {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-}
-body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,4 +93,9 @@ body{
     font-weight: 400;
     color: black;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.titre-articles{
+    text-align: center;
+    font-family: 'Inter';
+    color: black;
 }

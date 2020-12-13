@@ -109,5 +109,6 @@
     width: 43.77px;
     height: auto;
     display: block;
-    position: center;
+    position: absolute;
+    top: 30px;
 }

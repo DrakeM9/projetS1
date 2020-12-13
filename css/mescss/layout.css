@@ -96,21 +96,33 @@ header>img{
     animation: fadein 6s;
 }
 
-footer > img{
+.réseaux>li>a>img{
     display: block;
     width: 25px;
     height: auto;
+    position: relative;
+}
+.instagram{
+    left: 300px;
+    bottom: 160px;
+}
+
+.twitter{
+    left: 300px;
+    bottom: 130px;
+}
+
+.mmi{
+    left: 300px;
+    bottom: 100px;
 }
 
 .mention{
-    width: 109px;
+    width: 50%;
 }
 
 footer{
     width: 375px;
     margin: 0 -20px;
-}
-
-.réseaux>li{
-    display: inline-block;
+    height: 155px;
 }
