@@ -212,6 +212,11 @@ img[src="./img/behindtheweb.png"]{
     width: 10rem;
 }
 
+img[src="./img/myplanet.png"]{
+    top: 25px;
+    width: 8rem;
+}
+
 .projets h3{
     padding-top: 1rem;
 }
