@@ -97,24 +97,14 @@ header>img{
 }
 
 .réseaux>li>a>img{
-    display: block;
     width: 25px;
     height: auto;
-    position: relative;
-}
-.instagram{
-    left: 300px;
-    bottom: 160px;
+    padding: 0 15px 20px 0;
 }
 
-.twitter{
-    left: 300px;
-    bottom: 130px;
-}
-
-.mmi{
-    left: 300px;
-    bottom: 100px;
+.colonne-footer{
+    display: table-cell;
+    vertical-align: top;
 }
 
 .mention{
@@ -123,7 +113,6 @@ header>img{
 
 footer{
     margin: 0 -20px;
-    height: 155px;
 }
 
 form{
