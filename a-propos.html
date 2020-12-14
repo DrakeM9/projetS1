@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="css/mescss/galerie.css">
     <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/layout.css">
@@ -33,7 +34,62 @@
     <main class="a-propos">
         <h1>À propos</h1>
         <p>Je m'appelle Clément Torchiat et je suis actuellement en DUT MMI à l'IUT de Montbéliard. Ce projet a pour but de traiter de la pollution numérique en s'appuyant sur une œuvre et un article scientifique, tout en proposant des solutions pour réduire notre pollution numérique. </p>
+        <section class="carousel">
+            <h2>Galerie</h2>
+            <ul class="carousel-items">
+                <li class="carousel-item">
+                    <img src="img/black%20mirror.png">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/Chute%20libre.jpeg">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/Bientôt%20de%20retour.png">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/Retour%20sur%20image.jpg">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/Pollution%20numérique%20carte.jpg">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/Réseaux%20pollution%20numérique.jpg">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/Data%20center.jpg">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/ecosia.jpg">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/Sites%20favoris.png">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/disque%20dur%20externe.jpeg">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/logo.png">
+                </li>
+            </ul>
+        </section>
         <h2>Contact</h2>
+        <form>
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
     </main>
     <footer>
         <div class="colonne-footer">
