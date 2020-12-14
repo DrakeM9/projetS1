@@ -122,7 +122,6 @@ header>img{
 }
 
 footer{
-    width: 375px;
     margin: 0 -20px;
     height: 155px;
 }
@@ -164,4 +163,77 @@ textarea {
 
 button {
     margin-left: .5em;
+}
+
+.projets li{
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    margin: 0 -5px -20px -45px;
+    padding-left: 20%;
+    height: 130px;
+}
+
+.projets img{
+    display: block;
+    position: absolute;
+    left: 30px;
+    height: auto;
+}
+
+img[src="./img/netlab.png"]{
+    top: 5px;
+    width: 10rem;
+}
+
+img[src="./img/zeta.png"]{
+    top: 5px;
+    width: 10rem;
+}
+
+img[src="./img/adntech.png"]{
+    top: 5px;
+    width: 8rem;
+}
+
+img[src="./img/llamasresponsible.png"]{
+    top: 30px;
+    width: 8rem;
+}
+
+img[src="./img/datarecall.png"]{
+    top: 5px;
+    width: 8rem;
+}
+
+img[src="./img/tousdesstalkers.png"]{
+    top: 30px;
+    width: 10rem;
+}
+
+img[src="./img/realpollution.png"]{
+    top: 5px;
+    width: 8rem;
+}
+
+img[src="./img/behindtheweb.png"]{
+    top: 40px;
+    width: 10rem;
+}
+
+.projets h3{
+    padding-top: 1rem;
+}
+
+.projets h4{
+    padding-bottom: 1rem;
+}
+
+a[href="http://projets1.jamyunverzagt.fr/"]>h4, a[href="http://projets1.laurataormina.fr/"]>h4{
+    margin-top: -20px;
+}
+
+a[href="http://projets1.lucas-verove.fr/"]>h4{
+    margin-top: -25px;
 }

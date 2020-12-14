@@ -96,6 +96,7 @@ footer{
 .mention{
     font-family: "Inter ExtraLight";
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 .réseaux{
@@ -108,16 +109,18 @@ footer{
     width: 25px;
     text-indent: -9999px;
 }
-/*
-
-.réseaux a[href^="https://www.instagram.com/clem_inthemood/"]{
-    background-image: url("images/instagram-brands.svg");
+ul{
+    list-style: none;
 }
 
-.réseaux a[href^="https://twitter.com/clem__tor"]{
-    background-image: url("images/twitter-brands (1).svg");
+.projets h3{
+    font-weight: bold;
+    color: #4D3227;
+    font-size: 2.4rem;
 }
 
-.réseaux a[href^="http://mmimontbeliard.com/"]{
-    background-image: url("images/logo-mmi.png");
-}*/
+.projets h4{
+    font-weight: normal;
+    color: #996E5D;
+    font-size: 2rem;
+}
