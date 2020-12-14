@@ -173,6 +173,7 @@ button {
     margin: 0 -5px -20px -45px;
     padding-left: 20%;
     height: 130px;
+    border-bottom: 1px solid black;
 }
 
 .projets img{
