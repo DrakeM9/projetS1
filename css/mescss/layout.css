@@ -6,52 +6,8 @@ header>img{
     margin-left: auto;
 }
 
-.article-oeuvre>.black-mirror{
-    width: 329px;
-    height: auto;
-}
-
-.article-oeuvre>.chute-libre{
-    width: 329px;
-    height: auto;
-}
-
-.article-oeuvre>.bientot-de-retour{
-    width: 329px;
-    height: auto;
-}
-
-.article-oeuvre>.retour-sur-image{
-    width: 329px;
-    height: auto;
-}
-
-.article-pollution>.carte-pollution-nuérique{
-    width: 329px;
-    height: auto;
-}
-
-.article-pollution>.réseaux-pollution-numérique{
-    width: 329px;
-    height: auto;
-}
-
-.article-pollution>.serveur{
-    width: 329px;
-    height: auto;
-}
-
-.article-solutions>.ecosia{
-    width: 329px;
-    height: auto;
-}
-
-.article-solutions>.sites{
-    width: 329px;
-    height: auto;
-}
-
-.article-solutions>.disque-dur{
+.article-oeuvre>.black-mirror, .article-oeuvre>.chute-libre, .article-oeuvre>.bientot-de-retour, .article-oeuvre>.retour-sur-image, .article-pollution>.carte-pollution-nuérique,
+.article-pollution>.réseaux-pollution-numérique, .article-pollution>.serveur, .article-solutions>.ecosia, .article-solutions>.sites, .article-solutions>.disque-dur{
     width: 329px;
     height: auto;
 }
@@ -68,6 +24,7 @@ header>img{
 .accueil a{
     display: block;
     width: 90%;
+    animation: fadein 6s;
 }
 
 .accueil h1{
@@ -97,10 +54,6 @@ header>img{
     animation: fadein 6s;
 }
 
-.accueil a{
-    animation: fadein 6s;
-}
-
 .réseaux>li>a>img{
     width: 25px;
     height: auto;
@@ -123,6 +76,7 @@ footer{
 form{
     margin: 0 auto;
     width: 300px;
+    padding-bottom: 213px;
 }
 
 form div {
@@ -222,6 +176,11 @@ img[src="./img/myplanet.png"]{
     width: 8rem;
 }
 
+img[src="./img/question-solid.svg"]{
+    top: 10px;
+    width: 8rem;
+}
+
 .projets h3{
     padding-top: 1rem;
 }
@@ -230,10 +189,14 @@ img[src="./img/myplanet.png"]{
     padding-bottom: 1rem;
 }
 
-a[href="http://projets1.jamyunverzagt.fr/"]>h4, a[href="http://projets1.laurataormina.fr/"]>h4{
+a[href="http://projets1.jamyunverzagt.fr/"]>h4, a[href="http://projets1.laurataormina.fr/"]>h4, a[href="http://projets1.willyvuillamier.fr/"]>h4{
     margin-top: -20px;
 }
 
 a[href="http://projets1.lucas-verove.fr/"]>h4{
     margin-top: -25px;
+}
+
+.projets {
+    padding-bottom: 20px;
 }
