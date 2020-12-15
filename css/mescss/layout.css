@@ -200,3 +200,21 @@ a[href="http://projets1.lucas-verove.fr/"]>h4{
 .projets {
     padding-bottom: 20px;
 }
+
+.flèche-droite-oeuvre img{
+    height: 30px;
+    width: auto;
+    padding-left: 310px;
+}
+
+.flèche-gauche-oeuvre img{
+    height: 30px;
+    width: auto;
+    position: absolute;
+    padding-right: 310px;
+}
+
+.article-scientifique>.flèche-gauche-oeuvre img{
+    position: relative;
+    padding-right: 310px;
+}
