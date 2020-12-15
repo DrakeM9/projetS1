@@ -65,6 +65,11 @@ header>img{
     padding: 15px;
 }
 
+.accueil a{
+    display: block;
+    width: 90%;
+}
+
 .accueil h1{
     padding-top: 50px;
     animation: fadein 3s;
